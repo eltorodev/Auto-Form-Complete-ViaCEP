@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body class="h-100">
+  <div class="container h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-md-8">
+        <form id="searchZipCode">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <label for="zipCode">CEP <span class="text-danger">*</span></label>
+                <input type="text" name="zip_code" class="form-control" id="zipCode">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="mb-3">
+                <label for="address">Endereço <span class="text-danger">*</span></label>
+                <input type="text" name="address" class="form-control" id="address">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-3">
+                <label for="district">Bairro <span class="text-danger">*</span></label>
+                <input type="text" name="district" class="form-control" id="district">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-3">
+                <label for="city">Cidade <span class="text-danger">*</span></label>
+                <input type="text" name="city" class="form-control" id="city">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-3">
+                <label for="state">Estado <span class="text-danger">*</span></label>
+                <input type="text" name="state" class="form-control" id="state">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./assets/js/jquery.mask.js"></script>
+  <script src="./assets/js/masks.js"></script>
+  <script src="./assets/js/zip-code.js"></script>
+</body>
+
+</html>
