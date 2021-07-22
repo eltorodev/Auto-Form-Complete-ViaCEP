@@ -20,4 +20,5 @@ Outro caso de uso é se o CEP informado não foi digitado corretamente será exi
 
 
 ### Exemplo:
+[https://oguilherme.xyz/auto-cep/](https://oguilherme.xyz/auto-cep/)
 ![Exemplo](https://i.imgur.com/P2AClEf.png)
